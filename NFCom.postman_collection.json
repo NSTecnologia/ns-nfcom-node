@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "a9ee8eb8-ea12-4e9d-a6af-b85b2569dfdc",
+		"name": "NFCom",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31435014"
+	},
+	"item": [
+		{
+			"name": "emissão",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-AUTH-TOKEN",
+						"value": "ADQWREQW561D32AWS1D6",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"NFCom\": {\r\n        \"infNFCom\": {\r\n            \"versao\": \"1.00\",\r\n            \"ide\": {\r\n                \"cUF\": \"43\",\r\n                \"tpAmb\": \"2\",\r\n                \"mod\": \"62\",\r\n                \"serie\": \"0\",\r\n                \"nNF\": \"27\",\r\n                \"cNF\": \"\",\r\n                \"cDV\": \"\",\r\n                \"dhEmi\": \"2024-02-22T15:04:29-03:00\",\r\n                \"tpEmis\": \"1\",\r\n                \"nSiteAutoriz\": \"0\",\r\n                \"cMunFG\": \"4303509\",\r\n                \"finNFCom\": \"0\",\r\n                \"tpFat\": \"0\",\r\n                \"verProc\": \"1.00\"\r\n            },\r\n            \"emit\": {\r\n                \"CNPJ\": \"07364617000135\",\r\n                \"IE\": \"0170108708\",\r\n                \"CRT\": \"3\",\r\n                \"xNome\": \"NS Tecnologia\",\r\n                \"enderEmit\": {\r\n                    \"xLgr\": \"RUA ANTONIO DURO\",\r\n                    \"nro\": \"870\",\r\n                    \"xBairro\": \"CENTRO\",\r\n                    \"cMun\": \"4303509\",\r\n                    \"xMun\": \"CAMAQUA\",\r\n                    \"CEP\": \"96180000\",\r\n                    \"UF\": \"RS\",\r\n                    \"fone\": \"5136719366\",\r\n                    \"email\": \"luciano.languer@nstecnologia.com.br\"\r\n                }\r\n            },\r\n            \"dest\": {\r\n                \"xNome\": \"NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL\",\r\n                \"CPF\": \"00269925074\",\r\n                \"IE\": \"ISENTO\",\r\n                \"indIEDest\": \"2\",\r\n                \"enderDest\": {\r\n                    \"xLgr\": \"AV ANTONIO DURO\",\r\n                    \"nro\": \"370\",\r\n                    \"xBairro\": \"OLARIA\",\r\n                    \"cMun\": \"4303509\",\r\n                    \"xMun\": \"CAMAQUA\",\r\n                    \"CEP\": \"96180000\",\r\n                    \"UF\": \"RS\",\r\n                    \"fone\": \"5136719366\",\r\n                    \"email\": \"luciano.languer@nstecnologia.com.br\"\r\n                }\r\n            },\r\n            \"assinante\": {\r\n                \"iCodAssinante\": \"1234567890\",\r\n                \"tpAssinante\": \"3\",\r\n                \"tpServUtil\": \"4\",\r\n                \"nContrato\": \"1234567890\",\r\n                \"dContratoIni\": \"2024-01-29\",\r\n                \"dContratoFim\": \"2024-12-31\"\r\n            },\r\n            \"det\": {\r\n                \"nItem\": \"1\",\r\n                \"prod\": {\r\n                    \"cProd\": \"53\",\r\n                    \"xProd\": \"Habilitação de TV por Assinatura\",\r\n                    \"cClass\": \"0200301\",\r\n                    \"CFOP\": \"5301\",\r\n                    \"uMed\": \"2\",\r\n                    \"qFaturada\": \"1\",\r\n                    \"vItem\": \"115.00\",\r\n                    \"vDesc\": \"0.00\",\r\n                    \"vOutro\": \"0.00\",\r\n                    \"vProd\": \"115.00\"\r\n                },\r\n                \"imposto\": {\r\n                    \"ICMSSN\": {\r\n                        \"CST\": \"90\",\r\n                        \"indSN\": \"1\"\r\n                    },\r\n                    \"PIS\": {\r\n                        \"CST\": \"07\",\r\n                        \"vBC\": \"0.00\",\r\n                        \"pPIS\": \"0.00\",\r\n                        \"vPIS\": \"0.00\"\r\n                    },\r\n                    \"COFINS\": {\r\n                        \"CST\": \"07\",\r\n                        \"vBC\": \"0.00\",\r\n                        \"pCOFINS\": \"0.00\",\r\n                        \"vCOFINS\": \"0.00\"\r\n                    }\r\n                }\r\n            },\r\n            \"total\": {\r\n                \"vProd\": \"115.00\",\r\n                \"ICMSTot\": {\r\n                    \"vBC\": \"0.00\",\r\n                    \"vICMS\": \"0.00\",\r\n                    \"vICMSDeson\": \"0.00\",\r\n                    \"vFCP\": \"0.00\"\r\n                },\r\n                \"vCOFINS\": \"0.00\",\r\n                \"vPIS\": \"0.00\",\r\n                \"vFUNTTEL\": \"0.00\",\r\n                \"vFUST\": \"0.00\",\r\n                \"vRetTribTot\": {\r\n                    \"vRetPIS\": \"0.00\",\r\n                    \"vRetCofins\": \"0.00\",\r\n                    \"vRetCSLL\": \"0.00\",\r\n                    \"vIRRF\": \"0.00\"\r\n                },\r\n                \"vDesc\": \"0.00\",\r\n                \"vOutro\": \"0.00\",\r\n                \"vNF\": \"115.00\"\r\n            }, \r\n            \"gFat\": {\r\n                \"CompetFat\": \"202402\",\r\n                \"dVencFat\": \"2024-02-29\",\r\n                \"dPerUsoIni\": \"2024-01-29\",\r\n                \"dPerUsoFim\": \"2024-12-29\",\r\n                \"codBarras\": \"432401073646170001356200000000000310000000101234\"\r\n            }\r\n        }\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nfcomhml.ns.eti.br/nfcom/issue",
+					"protocol": "https",
+					"host": [
+						"nfcomhml",
+						"ns",
+						"eti",
+						"br"
+					],
+					"path": [
+						"nfcom",
+						"issue"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consulta de status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"X-AUTH-TOKEN\": \"ADQWREQW561D32AWS1D6\",\r\n    \"CNPJ\": \"07364617000135\",\r\n    \"nsNRec\": 1895\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nfcomhml.ns.eti.br/nfcom/issue/status",
+					"protocol": "https",
+					"host": [
+						"nfcomhml",
+						"ns",
+						"eti",
+						"br"
+					],
+					"path": [
+						"nfcom",
+						"issue",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "download",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"X-AUTH-TOKEN\": \"SEU_TOKEN\",\r\n    \"chNFCom\": \"43240107364617000135620000000000011000000016\",\r\n    \"tpDown\": \"X\",\r\n    \"tpAmb\": \"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nfcomhml.ns.eti.br/nfcom/get",
+					"protocol": "https",
+					"host": [
+						"nfcomhml",
+						"ns",
+						"eti",
+						"br"
+					],
+					"path": [
+						"nfcom",
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

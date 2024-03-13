@@ -1,0 +1,19 @@
+{
+  "name": "ns-nfcom-node",
+  "version": "1.0.0",
+  "description": "Pacote da NFCom em node para a comunicação com as APIs da NS Tecnologia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSTecnologia/ns-nfcom-node.git"
+  },
+  "author": "Cleiton Analista de Integração NS Tecnologia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NSTecnologia/ns-nfcom-node/issues"
+  },
+  "homepage": "https://github.com/NSTecnologia/ns-nfcom-node#readme"
+}
